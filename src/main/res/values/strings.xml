@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Q-Vendor</string>
+    <string name="tagline">MoMo. Made Quick.</string>
+
+    <string name="accessibility_service_description">Q-Vendor needs accessibility permission to auto-dial USSD codes and interact with USSD dialogs on your behalf. This allows instant balance checks, cash-in, cash-out and transfers without manual input.</string>
+
+    <string name="splash_skip">Skip</string>
+
+    <string name="check_balance">Check Balance</string>
+    <string name="cash_in">Cash In</string>
+    <string name="cash_out">Cash Out</string>
+    <string name="transfer_airtime">Transfer Airtime</string>
+    <string name="my_profiles">My Profiles</string>
+    <string name="add_profile">Add Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="select_isp">Select ISP / Network</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_delete">Delete this profile?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_profiles_yet">No profiles yet.\nGo to My Profiles to create one.</string>
+    <string name="active_profile">Active</string>
+    <string name="switch_profile">Switch</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="enter_number">Enter phone number</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="dialing">Dialing…</string>
+    <string name="grant_call_permission">Q-Vendor needs phone permission to dial USSD codes.</string>
+    <string name="grant_accessibility">Enable accessibility for Q-Vendor to auto-handle USSD menus.</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="profile_icon">Profile Icon</string>
+    <string name="hint_ussd_code">e.g. *170#</string>
+
+    <string name="quick_actions">Quick Actions</string>
+    <string name="add_action">Add Action</string>
+    <string name="edit_action">Edit Action</string>
+    <string name="remove_action">Remove action</string>
+    <string name="action_name">Action Name</string>
+    <string name="ussd_code">USSD Code</string>
+    <string name="add_step">Add Step</string>
+    <string name="remove_step">Remove step</string>
+    <string name="reset_defaults">Reset</string>
+    <string name="hint_step_input">Input (menu option or blank for dynamic)</string>
+    <string name="hint_step_value_help">Leave input blank for dynamic fields (PIN, amount, phone).</string>
+    <string name="no_steps_defined">No steps defined</string>
+    <string name="step_number">%d.</string>
+    <string name="close">Close</string>
+
+    <string-array name="isp_names">
+        <item>MTN Ghana</item>
+        <item>Telecel (Telecel Cash)</item>
+        <item>AirtelTigo (AirtelTigo Money)</item>
+        <item>Custom</item>
+    </string-array>
+
+    <string name="mtn_ghana">MTN Ghana</string>
+    <string name="telecel_ghana">Telecel Cash</string>
+    <string name="airteltigo_ghana">AirtelTigo Money</string>
+    <string name="custom_isp">Custom</string>
+    <string name="default_mobile_number">Mobile Number</string>
+    <string name="default_amount">Amount (GHS)</string>
+    <string name="default_reference">Reference</string>
+    <string name="enter_reference">Enter reference</string>
+    <string name="send_money">Send Money</string>
+
+    <string name="transaction_history_title">Transaction history</string>
+    <string name="no_transactions">No transactions yet.\nDial an action to record history.</string>
+    <string name="clear_history">Clear history</string>
+    <string name="confirm_clear_history">Clear all transactions?</string>
+    <string name="status_successful">Successful</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_failed">Failed</string>
+
+    <string name="login_welcome_back">Welcome back</string>
+    <string name="login_subtitle">Log in to Q-Vendor</string>
+    <string name="login_agent_code_hint">Agent code (mobile number)</string>
+    <string name="login_pin_hint">6-digit PIN</string>
+    <string name="login_button">Log in</string>
+    <string name="login_signup_prompt">Don\'t have an account?</string>
+    <string name="login_signup">Sign up</string>
+    <string name="login_signup_title">Create your Q-Vendor account</string>
+    <string name="login_signup_explanation">Register your agent code (your operating mobile number) and a 6-digit PIN. Your PIN is encrypted and stored securely on this device.</string>
+    <string name="login_create_account">Create account</string>
+    <string name="login_continue">Continue</string>
+    <string name="login_setup_pin_title">Set your 6-digit PIN</string>
+    <string name="login_setup_pin_subtitle">You\'ll use this PIN every time you open Q-Vendor. Choose something easy to remember but hard to guess.</string>
+    <string name="login_have_account">Already registered?</string>
+    <string name="login_log_in_link">Log in</string>
+    <string name="login_error_phone_required">Mobile number is required</string>
+    <string name="login_error_phone_invalid">Enter a valid mobile number</string>
+    <string name="login_error_pin_required">PIN is required</string>
+    <string name="login_error_pin_length">PIN must be 6 digits</string>
+    <string name="login_error_pin_digits">PIN must contain digits only</string>
+    <string name="login_error_invalid_credentials">Incorrect agent code or PIN</string>
+    <string name="login_account_created">Account created. You are now logged in.</string>
+    <string name="login_confirm_pin">Confirm PIN</string>
+    <string name="login_error_pin_mismatch">PINs do not match</string>
+    <string name="logout">Log out</string>
+    <string name="confirm_logout">Log out of Q-Vendor?</string>
+</resources>

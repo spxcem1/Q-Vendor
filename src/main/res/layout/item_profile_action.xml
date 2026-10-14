@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_sm"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/qvendor_text_secondary"
+    app:cardBackgroundColor="@color/qvendor_surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_md">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <View
+                android:id="@+id/viewActionColor"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/bg_action_button" />
+
+            <TextView
+                android:id="@+id/tvActionName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/spacing_sm"
+                android:textSize="@dimen/text_size_body"
+                android:textColor="@color/qvendor_text"
+                android:fontFamily="sans-serif-medium"
+                android:ellipsize="end"
+                android:maxLines="1" />
+
+            <ImageButton
+                android:id="@+id/btnEditAction"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@android:drawable/ic_menu_edit"
+                android:contentDescription="@string/edit_action"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/spacing_xs" />
+
+            <ImageButton
+                android:id="@+id/btnRemoveAction"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@android:drawable/ic_delete"
+                android:contentDescription="@string/remove_action"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/spacing_xs" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvActionCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_xs"
+            android:textSize="@dimen/text_size_caption"
+            android:textColor="@color/qvendor_text_secondary" />
+
+        <TextView
+            android:id="@+id/tvActionStepsSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_xs"
+            android:textSize="@dimen/text_size_caption"
+            android:textColor="@color/qvendor_text_secondary" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

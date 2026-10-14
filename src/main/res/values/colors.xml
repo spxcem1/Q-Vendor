@@ -1,0 +1,20 @@
+<resources>
+    <color name="qvendor_green">#FF00C853</color>
+    <color name="qvendor_green_dark">#FF009624</color>
+    <color name="qvendor_green_light">#FF69F0AE</color>
+    <color name="qvendor_bg">#FFF5F5F5</color>
+    <color name="qvendor_surface">#FFFFFFFF</color>
+    <color name="qvendor_text">#FF212121</color>
+    <color name="qvendor_text_secondary">#FF757575</color>
+    <color name="qvendor_error">#FFD32F2F</color>
+    <color name="qvendor_mtn">#FFFFC107</color>
+    <color name="qvendor_telecel">#FFE60000</color>
+    <color name="qvendor_airteltigo">#FF0082CA</color>
+    <color name="qvendor_custom">#FF455A64</color>
+    <color name="avatar_mint">#FFD7F2E2</color>
+    <color name="avatar_beige">#FFF3E0CC</color>
+    <color name="avatar_pink">#FFF6DCDC</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

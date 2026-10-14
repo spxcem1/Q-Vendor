@@ -1,0 +1,50 @@
+<resources>
+    <style name="Theme.QVendor" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/qvendor_green</item>
+        <item name="colorPrimaryDark">@color/qvendor_green_dark</item>
+        <item name="colorPrimaryVariant">@color/qvendor_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/qvendor_green_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/qvendor_bg</item>
+        <item name="colorSurface">@color/qvendor_surface</item>
+        <item name="colorOnSurface">@color/qvendor_text</item>
+        <item name="android:statusBarColor">@color/qvendor_green_dark</item>
+        <item name="android:navigationBarColor">@color/qvendor_green_dark</item>
+        <item name="materialButtonStyle">@style/Widget.QVendor.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.QVendor.CardView</item>
+    </style>
+
+    <style name="Theme.QVendor.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="android:statusBarColor">@color/qvendor_green_dark</item>
+        <item name="android:navigationBarColor">@color/qvendor_green_dark</item>
+    </style>
+
+    <style name="Widget.QVendor.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Widget.QVendor.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <style name="QVendor.ActionButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">12dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="QVendor.ProfileChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipCornerRadius">12dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>
